@@ -21,10 +21,12 @@ $yellow:                          #ffba00;
 $green:                           #3cd458;
 $teal:                            #20c997;
 $cyan:                            #17a2b8;
+$spayBlack:                       #3a3a3a;
+$spayOrange:                      #ff6347;
 
 // Context colors
-$color-primary:                   $blue;
-$color-secondary:                 #e9ecf0;
+$color-primary:                   $spayOrange;
+$color-secondary:                 $spayBlack;
 $color-success:                   $green;
 $color-info:                      $purple;
 $color-warning:                   $yellow;
