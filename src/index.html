@@ -27,7 +27,7 @@
 
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light navbar-stick-dark" data-navbar="sticky">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-stick-dark" data-navbar="fixed">
       <div class="container">
 
         <div class="navbar-left">
@@ -43,6 +43,7 @@
 
           <nav class="nav nav-navbar">
             <a class="nav-link" href="#">Inicio</a>
+            <a class="nav-link" href="#">Servicios</a>
             <a class="nav-link" href="#">Precio</a>
             <a class="nav-link" href="#">Contacto</a>
           </nav>
@@ -56,10 +57,24 @@
 
 
     <!-- Header -->
-    <header class="header text-white pt-12 pb-10" style="background-image: linear-gradient(-45deg, #667eea 0%, #764ba2 100%);">
+    <header class="header h-fullscreen">
       <div class="container">
-        <h1 class="display-4">Start New Project</h1>
-        <p class="lead-2 mt-6">This is a starting point for your next awesome project. The skeleton is ready, just populate it.</p>
+        <div class="row align-items-center h-100">
+
+          <div class="col-md-5 mr-auto">
+            <h1 class="fw-600">Crea tu empresa y recibe pagos sin complicaciones.</h1>
+            <br>
+            <p class="lead-2">No filas, no tiempo de espera indefinidamente, concentrate en tu negocios y nosotros en hacer posible los demas.</p>
+            <br>
+            <a class="btn btn-xl btn-round btn-info" href="#">Servicios</a>
+          </div>
+
+
+          <div class="col-md-6">
+            <img src="assets/img/22.png" alt="...">
+          </div>
+
+        </div>
       </div>
     </header><!-- /.header -->
 
@@ -76,26 +91,39 @@
       <section class="section">
         <div class="container">
           <header class="section-header">
-            <small>Content</small>
-            <h2>How To Get Started</h2>
+            <small>Servicios</small>
+            <h2>Nuestros servicios</h2>
             <hr>
+            <p class="lead">Unete a los miles de dominicanos que usan nuestros servicios.</p>
           </header>
 
 
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <p><strong>1. <a href="readme.html">Read me</a></strong> file is the staring point. It includes some guides and FAQs which answers most of your questions. So you should start reading now if you haven't.</p>
+          <div class="row gap-y">
 
-              <p><strong>2. <a href="http://thetheme.io/thesaas/uikit/navbar.html" target="_blank">Navbar</a></strong> is a must have components for most of websites. Lean about navbars to create your own or use any of the available samples by visiting navbar documentation.</p>
-
-              <p><strong>3. <a href="http://thetheme.io/thesaas/block/header.html" target="_blank">Header</a> or <a href="http://thetheme.io/thesaas/block/cover.html" target="_blank">Cover</a></strong> is the next step. Create or use one of the available headers for your internal pages or get inspired by our sample covers for your homepage.</p>
-
-              <p><strong>4. <a href="http://thetheme.io/thesaas/block/footer.html" target="_blank">Footer</a></strong> is a mandatory part of most websites. Get a sample footer, make it yours, and use it in all of the pages. Feel free to change the background color of footers using utility classes.</p>
-
-              <p><strong>5. <a href="http://thetheme.io/thesaas/block/" target="_blank">Blocks</a></strong> are the content here. We have hundreds of blocks, categorized in more than 20 pages. Simply pick what you need and change the text and image of the block and you're good to go.</p>
-
-              <p><strong>6. <a href="http://thetheme.io/thesaas/uikit/" target="_blank">UI Kit</a></strong> is the final destination for your creativity. If you need to create a custom block or get enough knowledge for modifying the existing blocks, this is the place.</p>
+            <div class="col-md-8 col-xl-4">
+              <div class="card card-body shadow-3 text-center bg-success text-white">
+                <p class="my-5"><i class="icon-browser lead-6"></i></p>
+                <h5 class="mb-5 fw-500"><a href="#">Constitución de empresa</a></h5>
+                <p>En 5 días laborables hacemos posible la creación de tu empresa.</p>
+              </div>
             </div>
+
+            <div class="col-md-8 col-xl-4">
+              <div class="card card-body shadow-3 text-center">
+                <p class="my-5"><i class="icon-mobile lead-6"></i></p>
+                <h5 class="mb-5 fw-500"><a href="#">E-Commerce sPay</a></h5>
+                <p>Los clientes son cada vez más electrónicos, recibe pagos en tu página web.</p>
+              </div>
+            </div>
+
+            <div class="col-md-8 col-xl-4">
+              <div class="card card-body shadow-3 text-center bg-info text-white">
+                <p class="my-5"><i class="icon-linegraph lead-6"></i></p>
+                <h5 class="mb-5 fw-500"><a href="#">Enlace de pagos</a></h5>
+                <p>Genera links de pagos a tus clientes y comienza a recibir ingresos.</p>
+              </div>
+            </div>
+
           </div>
 
 
